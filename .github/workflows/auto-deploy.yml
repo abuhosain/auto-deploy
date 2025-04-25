@@ -1,0 +1,16 @@
+name: Auto Deploy Workflow
+
+on: push
+
+jobs: 
+  firtst-auto-deploy:
+    runs-on: ubuntu-latest
+
+    steps: 
+      - name: Print a message
+        run: echo "Hello from my first github actions"
+        
+      - name: Check Linting
+        run: echo "Linting Checking"
+
+ 
